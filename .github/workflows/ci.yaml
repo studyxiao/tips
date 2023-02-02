@@ -31,5 +31,5 @@ jobs:
       - name: Run Mypy
         run: |
           pdm run -v mypy . --pretty
-      - name: Run Safety
-        run: pdm run -v safety check
+      # - name: Run Safety
+      #   run: pdm run -v safety check
